@@ -136,6 +136,11 @@ fieldset{
 #botao{
     text-align: center;
 }
+#rodape{
+    border-radius: 2px solid #21215f;
+    padding: 5px;
+    clear: both;
+}
 #rodape p{
     text-align: center;
     color: #21215f;
@@ -237,3 +242,51 @@ fieldset{
     background-size: 200px 200px;
 }
 
+#galeria2{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+#galeria-foto{
+    list-style: none;
+    margin: 0 auto;
+}
+#galeria-foto li{
+    display: block;
+    float: left;
+    margin: 3px;
+    position: ralative;
+}
+#galeria-foto img{
+    background: #21215f;
+    padding: 5px;
+    width: 200px;
+    height: 165px;
+}
+.aumentar:hover{
+    transform: scale(1.5);
+    z-index:1
+}
+
+/*Pagina de Videos*/
+#radio-tv{
+    width: 900px;
+    height: 600px;
+    background: url(img/radio-tv.png) no-repeat;
+    margin: 5px auto;
+}
+#musica{
+    display: block;
+    position: relative;
+    width: 300px;
+    top: 490px;
+    left: 575px;
+}
+#filme{
+    display: block;
+    position: relative;
+    width: 459px;
+    top: 56px;
+    left: 77px;
+    border-radius: 15px;
+}
